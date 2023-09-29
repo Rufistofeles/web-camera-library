@@ -13,9 +13,9 @@ button.image-capture-button {
 }
 button.image-retake-button {
     background: orange;
-    font-size: 0;
-    height: 30px;
-    width: 30px;
+    font-size: 10px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     position: absolute;
     bottom: 15px;
@@ -25,10 +25,10 @@ button.image-retake-button {
     border: 3px solid #dedede;
 }
 button.image-ok-button {
-    background: green;
-    font-size: 0;
-    height: 30px;
-    width: 30px;
+    /* background: green; */
+    font-size: 10px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     position: absolute;
     bottom: 15px;
@@ -77,8 +77,8 @@ button.image-ok-button {
 }
 .camera-select-dropdown {
     position: absolute;
-    top: 45px;
-    left: 10px;
+    top: 24px;
+    left: 70px;
 }
 
 .camera-toggle-button-icon {
@@ -88,7 +88,7 @@ button.image-ok-button {
     background: #fff;
     padding: 5px;
     border-radius: 6px;
-    height: 30px;
+    height: 50px;
     cursor: pointer;
 }
 .face-capture-canvas {

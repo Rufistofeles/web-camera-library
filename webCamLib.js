@@ -247,25 +247,25 @@
             $captureButtonClass.push("image-capture-button");
             return $('<button>', {
               class: $captureButtonClass.join(" "),
-              text: "Capture Image"
+              text: "Tomar Foto"
             }).on('click', captureImage.bind());
         };
 
         let createRetakeButtonElement = function () {
             let $retakeButtonClass = plugin.settings.retakeButtonClass;
-            $retakeButtonClass.push("image-retake-button");
+            $retakeButtonClass.push("image-retake-button btn btn-warning");
             return $('<button>', {
               class: $retakeButtonClass.join(" "),
-              text: "Retake Image"
+              text: "Volver a Tomar"
             }).on('click', retakeImage.bind());
         };
 
         let createOkButtonElement = function () {
             let $okButtonClass = plugin.settings.okButtonClass;
-            $okButtonClass.push("image-ok-button");
+            $okButtonClass.push("image-ok-button btn btn-success");
             return $('<button>', {
               class: $okButtonClass.join(" "),
-              text: "Ok Image"
+              text: "OK"
             }).on('click', acceptImage.bind());
         };
 
